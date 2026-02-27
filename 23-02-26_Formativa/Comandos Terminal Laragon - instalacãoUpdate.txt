@@ -1,0 +1,69 @@
+Comandos Terminal Laragon:
+
+--> dir
+
+--> composer global require laravel/installer
+		instala aplicações laravel que iremos usar;
+		Atualiza a aplicação para os frameworks;
+
+-->laravel new telaloginTA
+
+	OBS.:
+		React: biblioteca JS;
+		Svelte;
+		Vue;
+	      XXLivewire
+
+--> livewire
+	XX[laravel] Laravel's built-in authentication
+  	  [workos ] WorkOS (Requires WorkOS account)
+ 	  [none   ] No authentication scaffolding
+
+--> Laravel
+--> yes
+	 XX [0] Pest
+            [1] PHPUnit
+
+--> 0
+--> yes
+
+========== BOOST ============
+ Would you like to run npm install and npm run build? (yes/no) [yes]:
+ --> yes
+=============================
+
+--> cd telaloginTA\
+--> dir
+--> php artisan key:generate
+--> php artisan migrate
+--> php artisan serve
+	 INFO  Server running on [http://127.0.0.1:8000].
+			Ctrl + Clik here --> ^
+===================
+
+REGISTER
+LucasNiello
+niello@teste.com
+Senha: Senha?123
+
+===================
+
+No laragon, abra o Root, localize a pasta telaloginTA e abra com o code.
+===================
+
+--> cd.. (para voltar  1 pasta)
+
+===================
+Fazendo de novo, mas agora com react:
+
+--> laravel new telaloginTA2
+--> react
+--> laravel
+--> 0
+--> yes (para o boost)
+
+yes
+
+--> cd telaloginTA2
+--> code .
+.code
