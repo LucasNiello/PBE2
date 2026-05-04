@@ -1,0 +1,36 @@
+Projetinho:
+
+CONFECCAO
+
+ Terminal:
+ //Criar um projeto
+ 	-> composer create-project laraavel/laravel confecção
+
+ //Criar um modelo ************
+ 	-> php artisan make:model Produto -m
+
+ //Pacote de FRAMEWORK breeze
+-> composer require laravel/breeze --dev
+
+ //installing
+ 	-> php artisan breeze:install blade
+
+ //Subir as aplicações *********
+ 	-> php artisan migrate
+
+ //
+ 	->npm install
+ 	->npm run dev
+
+ //Parecido com o model, porém já vem pré-definido
+ 	->php artisan make:factoy ClientesFactory
+
+ //Controller
+ 	->php artisan make:controller ClienteController
+
+
+         |||||               ATENÇÃO          |||||
+
+
+ //QUANDO PRECISAR DE STYLE NO PROJETO rode o Tailwind
+	-> npm run dev
